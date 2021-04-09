@@ -1,0 +1,88 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+nav{background-color: teal;height: 60px;position: relative;}
+
+.nav12{position: absolute;height: 60px;}
+.nav1{width: 32%;background-color: #ac9692;left: 0;}
+.nav2{width: 68%;background-color: #b9aaa7;right: 0;}
+
+
+.nav1>ul>li {
+    float: left;
+    text-align: center;
+    width: 50%
+}
+
+.nav1>ul>li>a {
+    display: block;
+    line-height: 60px;
+    font-family: 'Train One', cursive;
+    color: white;
+
+
+}
+.nav1>ul>li>a:hover {
+    background-color: #a5a555;
+}
+
+
+
+
+.nav2>ul>li {
+    position: relative;
+    float: left;
+    text-align: center;
+    width: 20%;
+   
+  
+}
+
+.nav2>ul>li>a {
+    display: block;
+    line-height: 60px;
+    font-family: 'Train One', cursive;
+    color: white;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: 'Yatra One', cursive;
+
+
+}
+
+.nav2>ul>li>ul {
+    position: absolute;
+    visibility: hidden;
+}
+
+.nav2>ul>li>ul>li>a {
+    
+    display: block;
+    background-color: thistle;
+    font-family: 'Yanone Kaffeesatz';
+    width: 150px;
+    line-height: 30px;
+    
+}
+
+
+.nav2>ul>li>a:hover {
+    background-color: #6e6e59;
+}
+
+.nav2>ul>li>ul>li>a:hover {
+    background-color: #d6d6b8;
+}
+
+.nav2>ul>li:hover>ul {
+    visibility: visible;
+}
+
+
